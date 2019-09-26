@@ -136,7 +136,7 @@ int main()
 		posBuf = shapes[0].mesh.positions;
 		triBuf = shapes[0].mesh.indices;
 	}
-	cout << shapes[0].mesh.positions.size() << endl;
+	
 	cout << "Number of vertices: " << posBuf.size()/3 << endl;
 	cout << "Number of triangles: " << triBuf.size()/3 << endl;
 
@@ -163,7 +163,7 @@ int main()
 		//image->setPixel(x, y, 255, 0, 0);
 	}
 
-	/*
+	
 	// Go through every pixel and make it red it it is in
 	for (int i = 0; i < 100; i++) {
 		for (int j = 0; j < 100; j++) {
@@ -172,11 +172,11 @@ int main()
 			}
 		}
 	}
-	*/
+	/*
 	float Ta, Fa, Fb, Fc; // Init Var for Area of Triangle and the rgb value
 	Ta = area(Ax, Ay, Bx, By, Cx, Cy); // Calcluate area of triangle
-
-	// Grou through every pixel
+	
+	// Go through every pixel
 	for (int i = 0; i < 100; i++) {
 		for (int j = 0; j < 100; j++) {
 			if (isInTriangle(i, j, Ax, Ay, Bx, By, Cx, Cy)) {
@@ -188,6 +188,7 @@ int main()
 			}
 		}
 	}
+	*/
 	//write out the image
    image->writeToFile(imgName);
 
