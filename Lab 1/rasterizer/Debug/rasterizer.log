@@ -1,0 +1,58 @@
+﻿  main.cpp
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(29,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(62,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(63,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(64,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(65,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(66,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(67,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(87,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(149,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(149,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(149,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(149,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(149,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(150,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(150,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(150,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(150,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(150,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(151,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(151,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(151,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(151,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(151,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(154,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(154,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(154,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(154,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(154,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(155,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(155,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(155,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(155,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(155,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(156,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(156,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(156,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(156,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(156,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(159,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(159,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(159,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(159,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(159,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(160,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(160,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(160,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(160,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(160,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(161,59): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(161,59): warning C4244:         with
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(161,59): warning C4244:         [
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(161,59): warning C4244:             _Ty=float
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(161,59): warning C4244:         ]
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(187,35): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(187,31): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\main.cpp(187,27): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+  rasterizer.vcxproj -> Z:\Documents\CPE-471 (Introduction to Compute Graphics)\Lab 1\rasterizer\Debug\rasterizer.exe
