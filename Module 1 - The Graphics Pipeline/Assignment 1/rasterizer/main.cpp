@@ -83,6 +83,7 @@ void resize_obj(std::vector<tinyobj::shape_t> &shapes){
    }
 }
 
+// Strucct to hold verticies
 struct Triangle {
 	float Ax;
 	float Ay;
@@ -109,9 +110,7 @@ bool isInTriangle(float x, float y, Triangle tri) {
 	return (areaT == areaA + areaB + areaC);
 }
 
-
-
-
+// Rasterize the object
 void createImage(string input, string output, int image_width, int image_height, int mode)
 {
 	// OBJ filename
@@ -172,13 +171,13 @@ void createImage(string input, string output, int image_width, int image_height,
 			/* Get the x, y, z values of each vertex*/
 			float Ax = ((shapes[i].mesh.positions[3 * Apos + 0] + 1) * scale) / 2;
 			float Ay = ((shapes[i].mesh.positions[3 * Apos + 1] + 1) * scale) / 2;
-			float Az = ((shapes[i].mesh.positions[3 * Apos + 2]));
+			float Az = ((shapes[i].mesh.positions[3 * Apos + 2] + 1));
 			float Bx = ((shapes[i].mesh.positions[3 * Bpos + 0] + 1) * scale) / 2;
 			float By = ((shapes[i].mesh.positions[3 * Bpos + 1] + 1) * scale) / 2;
-			float Bz = ((shapes[i].mesh.positions[3 * Bpos + 2]));
+			float Bz = ((shapes[i].mesh.positions[3 * Bpos + 2] + 1));
 			float Cx = ((shapes[i].mesh.positions[3 * Cpos + 0] + 1) * scale) / 2;
 			float Cy = ((shapes[i].mesh.positions[3 * Cpos + 1] + 1) * scale) / 2;
-			float Cz = ((shapes[i].mesh.positions[3 * Cpos + 2]));
+			float Cz = ((shapes[i].mesh.positions[3 * Cpos + 2] + 1));
 
 			Triangle triangle = { Ax, Ay, Bx, By, Cx, Cy };
 			// Find min and max to find the boudning box of the triangle
@@ -186,7 +185,6 @@ void createImage(string input, string output, int image_width, int image_height,
 			float maxY = fmax(Ay, fmax(By, Cy));
 			float minX = fmin(Ax, fmin(Bx, Cx));
 			float minY = fmin(Ay, fmin(By, Cy));
-
 
 			// Fill in the bounding box
 			for (int x = minX; x < maxX; x++)
@@ -197,7 +195,7 @@ void createImage(string input, string output, int image_width, int image_height,
 					float Fa = (area(x, y, Bx, By, Cx, Cy) / Ta); // Ratio of red value
 					float Fb = (area(x, y, Ax, Ay, Bx, By) / Ta); // Ratio of green value
 					float Fc = (area(x, y, Ax, Ay, Cx, Cy) / Ta); // Ratio of blue value
-					double z = Fa * Cz + Fb * Az + Fc * Bz + 1;
+					double z = Fa * Cz + Fb * Az + Fc * Bz;
 					
 					if (isInTriangle(x, y, triangle))
 					{
@@ -212,20 +210,21 @@ void createImage(string input, string output, int image_width, int image_height,
 
 						if (mode == 1) 
 						{
+							// For red shading
 							r = 255 / 2 * zBuf[x][y];
 						}
 						else
-						{
-							r = 19 * y / g_height + 128 - (128 * y / g_height);
-							g = 84 * y / g_height + 208 - (208 * y / g_height);//255 * y/g_height;
-							b = 122 * y / g_height + 199 - (199 * y / g_height);//255 - (255*y/g_height);
+						{	
+							// For gradients
+							r = 255 - (255 * y / scale);
+							g = 255;
+							b = (255 * y / scale) - 255;
 						}
 						
 						image->setPixel(x, y, r, g, b);
 					}
 				}
 			}
-
 		}
 	}
 	//write out the image
