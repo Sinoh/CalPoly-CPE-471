@@ -163,6 +163,14 @@ int main()
 		//image->setPixel(x, y, 255, 0, 0);
 	}
 
+	cout << Ax << endl;
+	cout << Ay << endl;
+	cout << Bx << endl;
+	cout << By << endl;
+	cout << Cx << endl;
+	cout << Cy << endl;
+
+
 	
 	// Go through every pixel and make it red it it is in
 	for (int i = 0; i < 100; i++) {

@@ -1,16 +1,24 @@
-﻿  main.cpp
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(29,25): warning C4305: 'initializing': truncation from 'double' to 'float'
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(62,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(63,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(64,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(65,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(66,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(67,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(87,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(170,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  rasterizer.vcxproj -> Z:\Documents\Code\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\Debug\rasterizer.exe
+﻿  Image.cpp
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\stb_image_write.h(221,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\stb_image_write.h(615,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\stb_image_write.h(996,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(29,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(62,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(63,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(64,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(65,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(66,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(67,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(87,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\main.cpp(178,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  rasterizer.vcxproj -> Z:\Documents\GitHub\CPE-471\Module 1 - The Graphics Pipeline\Lab 1\rasterizer\Debug\rasterizer.exe
