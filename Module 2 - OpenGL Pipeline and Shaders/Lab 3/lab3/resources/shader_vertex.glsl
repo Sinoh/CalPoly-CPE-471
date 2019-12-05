@@ -10,7 +10,7 @@ uniform float time;
 
 out vec3 vertex_to_fragment_color;
 out vec2 center_of_screen;
-out vec2 current_time;
+
 
 
 

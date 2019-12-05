@@ -6,6 +6,7 @@ in vec2 center_of_screen;
 in vec4 gl_FragCoord;
 
 
+
 void main()
 {
 	
